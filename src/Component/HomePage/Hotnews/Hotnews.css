@@ -1,0 +1,28 @@
+.hotNews {
+  width: 100%;
+  height: fit-content;
+  float: left;
+}
+
+.card-image {
+  height: 40px;
+  width: 40px;
+}
+
+.hot-news-card {
+  height: 200px;
+  border: none !important;
+}
+
+@media (max-width: 1140px) {
+  .cards {
+    margin-right: 7px;
+  }
+}
+
+@media(max-width: 800px) {
+  .card-content {
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+}

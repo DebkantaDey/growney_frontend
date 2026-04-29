@@ -1,0 +1,79 @@
+
+  h1 {
+    font-size: 30px;
+  }
+  .card-image {
+    height: 40px;
+    width: 40px;
+  }
+  
+  thead {
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+  }
+  
+  tbody {
+    overflow: auto;
+  }
+  
+  tr {
+    white-space: nowrap;
+    height: 55px;
+  }
+  
+  th {
+    color: black;
+    font-weight: normal !important;
+    border-bottom: none !important;
+  }
+  .name {
+    background-color: white;
+  }
+  .airdropsCards {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+  .airdrops-card {
+    border: none !important;
+    padding: 0px 10px !important;
+  }
+  .airdropsCards {
+    height: 200px;
+    border: none !important;
+  }
+  .airdrop-img-div {
+    width: 30%;
+  }
+  .airdrop-content-div {
+    width: 70%;
+  }
+  
+  .airdropcard-image {
+    width: 50%;
+    height: 50%;
+  }
+  
+  @media (max-width: 1140px) {
+    .cards {
+      margin-right: 7px;
+    }
+  }
+  
+  @media(max-width: 800px) {
+    .card-content {
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
+  }
+  
+  @media(max-width: 500px) {
+    .logo-image {
+      width: 28px;
+    }
+  }  
+  @media screen and (max-width: 400px) {
+    .logo-image {
+      width: 26px;
+    }
+  }

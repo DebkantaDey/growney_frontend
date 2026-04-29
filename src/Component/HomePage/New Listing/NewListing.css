@@ -1,0 +1,70 @@
+.newListng {
+  width: 100%;
+}
+.new-listing {
+  width: 100%;
+  padding: 0px;
+  height: 350px;
+  overflow-y: scroll;
+}
+/* .new-listing::-webkit-scrollbar {
+  width: 6px;
+} */
+/* .new-listing::-webkit-scrollbar-track {
+  background-color: darkgrey;
+  border-radius: 1px;
+}
+.new-listing::-webkit-scrollbar-thumb {
+ 
+  background-color: #eed0a8;
+  height: 200px;
+  border: none;
+  border-radius: 10px;
+} */
+h1 {
+  font-size: 30px;
+}
+.logo-image {
+  height: 100%;
+  width: 30px;
+  margin: 0px 10px 0px 10px;
+  border-radius: 50%;
+}
+table{
+  column-gap: 40px;
+}
+thead {
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+tbody {
+  overflow: auto;
+}
+tr {
+  white-space: nowrap;
+  height: 55px;
+}
+th {
+  color: black;
+  font-weight: normal !important;
+  border-bottom: none !important;
+  padding: 0px 10px;
+}
+td{
+  padding: 0px 10px;
+}
+.item-name {
+  white-space: nowrap;
+}
+.name {
+  background-color: white;
+  width: 30px;
+}
+.size {
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+.watchlist-star {
+  font-size: 20px;
+}

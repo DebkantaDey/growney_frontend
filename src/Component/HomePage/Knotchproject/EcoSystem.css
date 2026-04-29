@@ -1,0 +1,96 @@
+.logo-image {
+    height: 100%;
+    width: 30px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 50%;
+  }
+  
+  .ecoSystem {
+    width: 100%;
+  }
+  
+  thead {
+    white-space: nowrap;
+  }
+  
+  tbody {
+    overflow: auto;
+  }
+  
+  tr {
+    white-space: nowrap;
+    height: 55px;
+  }
+  
+  th {
+    color: black;
+    font-weight: normal !important;
+    border-bottom: none !important;
+  }
+  
+  .item-name {
+    white-space: nowrap;
+  }
+  
+  .name {
+    background-color: white;
+  }
+  
+  .size {
+    font-size: 18px;
+    font-weight: 400 !important;
+  }
+  
+  .watchlist-star {
+    font-size: 20px;
+  }
+  
+  @media (max-width: 1000px) and (min-width: 990px) {
+    .ecoSystem {
+      width: 100% !important;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .ecoSystem {
+      overflow-x: scroll;
+      /* scrollbar-width: thin;
+      scrollbar-color: #6969dd #e0e0e0;
+      scrollbar-width: thin; */
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .ecoSystem {
+      width: 100%;
+      margin-left: 0px !important;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .ecoSystem {
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+  }
+  
+  @media(max-width: 500px) {
+    .logo-image {
+      width: 28px;
+    }
+  
+    .watchlist-star {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .logo-image {
+      width: 26px;
+    }
+  
+    .watchlist-star {
+      font-size: 17px;
+    }
+  }

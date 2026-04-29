@@ -1,0 +1,112 @@
+.main-container {
+    width: 90%;
+    height: auto;
+}
+.website_heading {
+    font-size: 35px;
+}
+.active,
+.inactive {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-right: 10px;
+    border: 1px solid #f7931a;
+}
+.active {
+    background-color: #f7931a;
+    color: white;
+    font-weight: 700;
+}
+.buttons-area {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.button-group {
+    white-space: nowrap;
+    display: flex;
+    gap: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    display: none;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
+
+/* Button scorolling start */
+.scrollable-button-group {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .button-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+
+  .button-container::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Webkit browsers */
+  }
+
+  .scrollable-button {
+    margin: 0 8px;
+    padding: 8px 16px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .scroll-btn{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .scroll-btn:hover{
+    background-color: #ededed;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 0px #979797;
+  }
+  .scroll-btn.blur {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* Media Query to hide buttons on larger screens */
+  @media (min-width: 970px) {
+    .scroll-btn {
+      display: none;
+    }
+  }
